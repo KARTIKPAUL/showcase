@@ -207,7 +207,7 @@ export default function BrgFineryShowcase() {
               <div className="absolute inset-0 flex items-center justify-center bg-black/30 opacity-100 transition-opacity duration-300 group-hover:opacity-100">
                 <button
                   onClick={toggleVideo}
-                  className="flex h-16 w-16 items-center justify-center rounded-full bg-amber-600 text-white transition-transform duration-300 hover:scale-110"
+                  className="flex h-20 w-20 items-center justify-center rounded-full bg-amber-600 text-white transition-transform duration-300 hover:scale-110"
                 >
                   {isVideoPlaying ? <FaPause className="h-6 w-6" /> : <FaPlay className="h-6 w-6 pl-1" />}
                 </button>
